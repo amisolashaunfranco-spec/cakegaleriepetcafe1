@@ -1,0 +1,44 @@
+CAKE GALERIE PET CAFE - READY FOR GITHUB PAGES
+
+1. Extract Cake-Galerie-Deploy-Ready.zip on your computer.
+2. Open the extracted folder. It contains index.html, admin.html,
+   app.js, styles.css, other files, and the assets folder.
+3. In your GitHub repository, open Code > Add file > Upload files.
+4. Upload EVERYTHING INSIDE this folder directly into the repository root.
+   Keep the assets folder and its files together.
+   Do not upload the ZIP itself or an extra enclosing folder.
+5. Commit the changes to main. Replace old website files when needed.
+6. In Settings > Pages, keep:
+       Source: Deploy from a branch
+       Branch: main
+       Folder: /(root)
+   Leave Custom domain blank when using the free github.io address.
+7. Open Actions and wait for the Pages build and deployment to succeed.
+8. Use Visit site from Settings > Pages.
+
+For the repository shown in your screenshot, the expected address is:
+https://amisolashaunfranco-spec.github.io/cakegaleriepetcafe3/
+
+This package contains the REAL website index.html at the top level.
+Do not replace it with the earlier redirect-to-public code.
+This package does not need a public folder or a custom workflow.
+
+DEMO LOGIN ACCOUNTS
+Administrator: admin@cakegalerie.test / Admin123!
+Staff: staff@cakegalerie.test / Staff123!
+Customer: guest@cakegalerie.test / Guest123!
+
+HOW THIS DEPLOYMENT WORKS
+GitHub Pages hosts the browser-local demonstration. Accounts, orders,
+reservations, and uploaded photos stay in the current browser.
+This is not shared storage or secure production authentication.
+The full Node.js / SQLite server requires a separate Node-capable host.
+Use invented customer data in this public demo.
+
+Pets show their profiles and availability. Customers reserve cafe seats
+without selecting or booking a pet. Pet and menu image selection uses
+device file uploads. Delivery positions are updated manually by staff.
+
+Open the deployed HTTP/HTTPS site instead of double-clicking index.html.
+Internet access is needed for map tiles, address search, road routes,
+and remotely hosted fonts. See ASSET-CREDITS.md for image/software credits.
